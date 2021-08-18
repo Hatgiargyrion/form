@@ -10,8 +10,8 @@ $curso=$_POST['curso'];
 $local=$_POST['local'];
 $turno=$_POST['turno'];
 
-$emailUser = 'manipuladorcandidatos@gmail.com';
-$passwordUser = 'fmucandidatos';
+$emailUser = ''; // Gmail do remetente
+$passwordUser = ''; // Senha do remetente
 
 $msg = "<h1><b>Candidato Cadastrado</b></h1> <br> 
 Nome: ".$nome."<br>".
